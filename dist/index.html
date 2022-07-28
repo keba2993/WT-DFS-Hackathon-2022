@@ -25,20 +25,27 @@
         </div>
     </header>
 
-    <section class="bg-primary 3">
+    <section class="bg-light">
         <div class="container px-4 px-lg-5 me-sm-auto">
             <form class="d-flex">
                 <div class="input-group">
-                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-                        aria-describedby="search-addon" />
-                    <button type="button" class="btn btn-outline-primary" onclick="">search</button>
+                    <input type="search" class="form-control rounded" placeholder="Search our inventory"
+                        aria-label="Search" aria-describedby="search-addon" />
+                    <button type="button" class="btn btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
+                            </path>
+                        </svg>
+                    </button>
                 </div>
             </form>
         </div>
     </section>
 
     <!-- Carousel -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
 
         <!-- Indicators/dots -->
         <div class="carousel-indicators">
@@ -55,237 +62,47 @@
                     <div class="container px-4 px-lg-5 mt-5">
                         <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                             <div class="col mb-5">
-                                <div class="card h-100">
-                                    <!-- Product image-->
-                                    <img class="card-img-top"
-                                        src="https://di2ponv0v5otw.cloudfront.net/posts/2021/11/22/619bcf33446e59a6575edca7/m_wp_619bcfdf9c33780c36f0b466.webp"
-                                        alt="..." />
-                                    <!-- Product details-->
-                                    <div class="card-body p-4">
-                                        <div class="text-center">
-                                            <!-- Product name-->
-                                            <h5 class="fw-bolder">chia pet</h5>
-                                            <!-- Product price-->
-                                            $40.00 - $80.00
-                                        </div>
-                                    </div>
-                                    <!-- Product actions-->
-                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View
-                                                options</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col mb-5">
-                                <div class="card h-100">
-                                    <!-- Sale badge-->
-                                    <div class="badge bg-light text-white position-absolute"
-                                        style="top: 0.5rem; right: 0.5rem">Sale
-                                    </div>
-                                    <!-- Product image-->
-                                    <img class="card-img-top"
-                                        src="https://i.ebayimg.com/images/g/UZ0AAAzy1-NSlhpR/s-l600.jpg" alt="..." />
-                                    <!-- Product details-->
-                                    <div class="card-body p-4">
-                                        <div class="text-center">
-                                            <!-- Product name-->
-                                            <h5 class="fw-bolder">Gatorade (Orange Flavor)</h5>
-                                            <!-- Product reviews-->
-                                            <div class="d-flex justify-content-center small text-warning mb-2">
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
+                                <div class="card">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <!-- Product details-->
+                                            <div class="card-body">
+                                                <div class="text-center">
+                                                    <h6 class="in-stock">In Stock</h6>
+                                                    <!-- Product name-->
+                                                    <h5 class="fw-bolder">Chia pet</h5>
+                                                    <!-- Product price-->
+                                                    <p>$40.00 - $80.00</p>
+                                                </div>
+                                                <!-- Product reviews-->
+                                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                                    <div class="bi-star-fill"></div>
+                                                    <div class="bi-star-fill"></div>
+                                                    <div class="bi-star-fill"></div>
+                                                    <div class="bi-star-fill"></div>
+                                                    <div class="bi-star-fill"></div>
+                                                    <p class="text-dark">&emsp;754 Ratings</p>
+                                                </div>
                                             </div>
-                                            <!-- Product price-->
-                                            <span class="text-muted text-decoration-line-through">$20.00</span>
-                                            $18.00
-                                        </div>
-                                    </div>
-                                    <!-- Product actions-->
-                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to
-                                                cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col mb-5">
-                                <div class="card h-100">
-                                    <!-- Sale badge-->
-                                    <div class="badge bg-light text-white position-absolute"
-                                        style="top: 0.5rem; right: 0.5rem">Sale
-                                    </div>
-                                    <!-- Product image-->
-                                    <img class="card-img-top"
-                                        src="https://m.media-amazon.com/images/I/61-vr+S9GwL._SX522_.jpg" alt="..." />
-                                    <!-- Product details-->
-                                    <div class="card-body p-4">
-                                        <div class="text-center">
-                                            <!-- Product name-->
-                                            <h5 class="fw-bolder">Iphone Charging cable and AC adapter</h5>
-                                            <!-- Product price-->
-                                            <span class="text-muted text-decoration-line-through">$50.00</span>
-                                            $25.00
-                                        </div>
-                                    </div>
-                                    <!-- Product actions-->
-                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to
-                                                cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col mb-5">
-                                <div class="card h-100">
-                                    <!-- Product image-->
-                                    <img class="card-img-top"
-                                        src="https://bjs.scene7.com/is/image/bjs/83804?$bjs-Initial480$" alt="..." />
-                                    <!-- Product details-->
-                                    <div class="card-body p-4">
-                                        <div class="text-center">
-                                            <!-- Product name-->
-                                            <h5 class="fw-bolder">Snyder's Of Hanover Honey Mustard & Onion Pieces</h5>
-                                            <!-- Product reviews-->
-                                            <div class="d-flex justify-content-center small text-warning mb-2">
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
+                                            <!-- Product actions-->
+                                            <div class="card-footer pt-0 border-top-0 bg-transparent">
+                                                <div class="text-center">
+                                                    <a class="btn btn-outline-dark mt-auto" href="#">View options</a>
+                                                </div>
                                             </div>
-                                            <!-- Product price-->
-                                            $40.00
+                                        </div>
+                                        <div class="col-md-6">
+                                            <!-- Product image-->
+                                            <img class="card-img-top"
+                                                src="https://di2ponv0v5otw.cloudfront.net/posts/2021/11/22/619bcf33446e59a6575edca7/m_wp_619bcfdf9c33780c36f0b466.webp"
+                                                alt="..." />
                                         </div>
                                     </div>
-                                    <!-- Product actions-->
-                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to
-                                                cart</a>
-                                        </div>
-                                    </div>
+
+
                                 </div>
                             </div>
-                            <div class="col mb-5">
-                                <div class="card h-100">
-                                    <!-- Sale badge-->
-                                    <div class="badge bg-light text-white position-absolute"
-                                        style="top: 0.5rem; right: 0.5rem">Sale
-                                    </div>
-                                    <!-- Product image-->
-                                    <img class="card-img-top"
-                                        src="https://thumbs.dreamstime.com/b/stack-colorful-starburst-candy-pink-front-white-background-106628822.jpg"
-                                        alt="..." />
-                                    <!-- Product details-->
-                                    <div class="card-body p-4">
-                                        <div class="text-center">
-                                            <!-- Product name-->
-                                            <h5 class="fw-bolder">Starburst Original</h5>
-                                            <!-- Product price-->
-                                            <span class="text-muted text-decoration-line-through">$50.00</span>
-                                            $25.00
-                                        </div>
-                                    </div>
-                                    <!-- Product actions-->
-                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to
-                                                cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col mb-5">
-                                <div class="card h-100">
-                                    <!-- Product image-->
-                                    <img class="card-img-top"
-                                        src="https://www.totalwine.com/dynamic/x490,4pk/media/sys_master/twmmedia/ha3/hdb/8812346572830.png"
-                                        alt="..." />
-                                    <!-- Product details-->
-                                    <div class="card-body p-4">
-                                        <div class="text-center">
-                                            <!-- Product name-->
-                                            <h5 class="fw-bolder">Pabst Blue Ribbon (16oz)</h5>
-                                            <!-- Product price-->
-                                            $120.00 - $280.00
-                                        </div>
-                                    </div>
-                                    <!-- Product actions-->
-                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View
-                                                options</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col mb-5">
-                                <div class="card h-100">
-                                    <!-- Sale badge-->
-                                    <div class="badge bg-light text-white position-absolute"
-                                        style="top: 0.5rem; right: 0.5rem">Sale
-                                    </div>
-                                    <!-- Product image-->
-                                    <img class="card-img-top"
-                                        src="https://cdn.shopify.com/s/files/1/0287/8390/2817/products/Jameson-1.75L_1800x1800.png?v=1612661574"
-                                        alt="..." />
-                                    <!-- Product details-->
-                                    <div class="card-body p-4">
-                                        <div class="text-center">
-                                            <!-- Product name-->
-                                            <h5 class="fw-bolder">Jameson Triple Distilled Irish Whiskey</h5>
-                                            <!-- Product reviews-->
-                                            <div class="d-flex justify-content-center small text-warning mb-2">
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
-                                            </div>
-                                            <!-- Product price-->
-                                            <span class="text-muted text-decoration-line-through">$20.00</span>
-                                            $18.00
-                                        </div>
-                                    </div>
-                                    <!-- Product actions-->
-                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to
-                                                cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col mb-5">
-                                <div class="card h-100">
-                                    <!-- Product image-->
-                                    <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                                        alt="..." />
-                                    <!-- Product details-->
-                                    <div class="card-body p-4">
-                                        <div class="text-center">
-                                            <!-- Product name-->
-                                            <h5 class="fw-bolder">Popular Item</h5>
-                                            <!-- Product reviews-->
-                                            <div class="d-flex justify-content-center small text-warning mb-2">
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
-                                                <div class="bi-star-fill"></div>
-                                            </div>
-                                            <!-- Product price-->
-                                            $40.00
-                                        </div>
-                                    </div>
-                                    <!-- Product actions-->
-                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to
-                                                cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </section>
@@ -753,9 +570,10 @@
                                                 <div class="bi-star-fill"></div>
                                                 <div class="bi-star-fill"></div>
                                                 <div class="bi-star-fill"></div>
+                                                <p class="text-dark">754 Reviews</p>
                                             </div>
                                             <!-- Product price-->
-                                            $40.00
+                                            <p></p>$40.00
                                         </div>
                                     </div>
                                     <!-- Product actions-->
@@ -780,14 +598,16 @@
             <span class="carousel-control-next-icon"></span>
         </button>
     </div>
+
     <!-- Footer-->
     <footer class="bg-light text-center text-lg-start">
-        <div class="container">
+        <div class="container p-4">
             <div class="row mb-5">
                 <div class="col text-center">
-                    <form action="game.html">
-                        <input class="btn btn-primary btn-large"type="submit" value="Memory Game" />
-                    </form>
+                    <!-- Button to Open the Modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                        Loyalty Flip!
+                    </button>
                 </div>
             </div>
         </div>
@@ -804,6 +624,71 @@
             </div>
         </div>
     </footer>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-fade">
+            <div class="modal-content">
+
+                <section class="memory-game">
+                    <div class="memory-card" data-framework="aurelia">
+                      <img class="front-face" src="../img/aurelia.svg" alt="Aurelia" />
+                      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+                    </div>
+                    <div class="memory-card" data-framework="aurelia">
+                      <img class="front-face" src="../img/aurelia.svg" alt="Aurelia" />
+                      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+                    </div>
+                
+                    <div class="memory-card" data-framework="vue">
+                      <img class="front-face" src="../img/vue.svg" alt="Vue" />
+                      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+                    </div>
+                    <div class="memory-card" data-framework="vue">
+                      <img class="front-face" src="../img/vue.svg" alt="Vue" />
+                      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+                    </div>
+                
+                    <div class="memory-card" data-framework="angular">
+                      <img class="front-face" src="../img/angular.svg" alt="Angular" />
+                      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+                    </div>
+                    <div class="memory-card" data-framework="angular">
+                      <img class="front-face" src="../img/angular.svg" alt="Angular" />
+                      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+                    </div>
+                
+                    <div class="memory-card" data-framework="ember">
+                      <img class="front-face" src="../img/ember.svg" alt="Ember" />
+                      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+                    </div>
+                    <div class="memory-card" data-framework="ember">
+                      <img class="front-face" src="../img/ember.svg" alt="Ember" />
+                      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+                    </div>
+                
+                    <div class="memory-card" data-framework="backbone">
+                      <img class="front-face" src="../img/backbone.svg" alt="Backbone" />
+                      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+                    </div>
+                    <div class="memory-card" data-framework="backbone">
+                      <img class="front-face" src="../img/backbone.svg" alt="Backbone" />
+                      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+                    </div>
+                
+                    <div class="memory-card" data-framework="react">
+                      <img class="front-face" src="../img/react.svg" alt="React" />
+                      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+                    </div>
+                    <div class="memory-card" data-framework="react">
+                      <img class="front-face" src="../img/react.svg" alt="React" />
+                      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+                    </div>
+                  </section>
+
+            </div>
+        </div>
+    </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->

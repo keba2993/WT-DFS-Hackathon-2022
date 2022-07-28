@@ -1177,6 +1177,7 @@ progress {
   .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
+    border-radius: 2rem;
   }
 
   .col-md-7 {
@@ -4518,6 +4519,8 @@ textarea.form-control-lg {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 2rem;
   filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.125));
+  height: 250px;
+  width: 400px;
 }
 .card > hr {
   margin-right: 0;
@@ -4544,7 +4547,7 @@ textarea.form-control-lg {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1rem 1rem;
+  padding-top: 1rem;
 }
 
 .card-title {
@@ -4575,7 +4578,7 @@ textarea.form-control-lg {
 }
 
 .card-footer {
-  padding: 0.5rem 1rem;
+  padding-bottom: 1rem;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
@@ -4609,12 +4612,13 @@ textarea.form-control-lg {
 .card-img-top,
 .card-img-bottom {
   width: 100%;
+  border-radius: inherit;
 }
 
 .card-img,
 .card-img-top {
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
+  border-radius: inherit;
+  padding-top: 1rem;
 }
 
 .card-img,
@@ -5531,7 +5535,8 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 640px;
+  height: 640px;
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
@@ -11333,4 +11338,12 @@ textarea.form-control-lg {
 
 .front-face {
   transform: rotateY(180deg);
+}
+
+.in-stock {
+  color: var(--bs-success);
+}
+
+.out-of-stock {
+  color: var(--bs-danger);
 }
