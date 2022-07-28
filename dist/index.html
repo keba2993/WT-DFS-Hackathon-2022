@@ -697,51 +697,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <script>
-        $(document).ready(function () {
-                var itemClass;
-                $.getJSON('./mockData.json', function (products) {
-                    console.log(products);
-                    $.each(products, function (index, element) {
-                        // var totalItems = $(".carousel-item").length;
-                        // if(totalItems === 0) {
-                        //     itemClass = "carousel-item active";
-                        // }
-                        // else {
-                        //     itemClass = "carousel-item";
-                        // }
-                        
-                        var isForSale = element.sale ? "<div class=\"badge bg-light text-white position-absolute\" style=\"top: 0.5rem; right: 0.5rem\">Sale</div>" : ""
-                        var htmlElement = `<div class="col mb-5">
-                                <div class="card h-100">
-                                    <!-- Sale badge-->
-                                    ${isForSale}
-                                    <!-- Product image-->
-                                    <img class="card-img-top"
-                                        src= ${element.image}
-                                        alt="..." />
-                                    <!-- Product details-->
-                                    <div class="card-body p-4">
-                                        <div class="text-center">
-                                            <!-- Product name-->
-                                            <h5 class="fw-bolder">${element.item}</h5>
-                                            <!-- Product price-->
-                                            <span class="text-muted text-decoration-line-through">${element.price}</span>
-                                        </div>
-                                    </div>
-                                    <!-- Product actions-->
-                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to
-                                                cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>`;
-                        $('.carousel-inner').append(htmlElement);
-                    });
-                });
-        })
-        </script>
 </body>
 
 </html>
