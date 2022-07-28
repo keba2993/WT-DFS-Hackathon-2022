@@ -1,64 +1,64 @@
 [
     {
-        "item": "soda",
+        "item": "Bob Ross Chia Pet",
         "price": 1.99,
-        "image": "",
+        "image": "https://di2ponv0v5otw.cloudfront.net/posts/2021/11/22/619bcf33446e59a6575edca7/m_wp_619bcfdf9c33780c36f0b466.webp",
         "nutrition info": "",
         "sale": true,
         "stock": 10
     },
     {
-        "item": "soda",
+        "item": "Gatorade (Orange Flavor)",
         "price": 2.99,
-        "image": "",
+        "image": "https://i.ebayimg.com/images/g/UZ0AAAzy1-NSlhpR/s-l600.jpg",
         "nutrition info": "",
         "sale": true,
         "stock": 0
     },
     {
-        "item": "burger",
+        "item": "Iphone Charging Cable with AC Adapter",
         "price": 3.99,
-        "image": "",
+        "image": "https://m.media-amazon.com/images/I/61-vr+S9GwL._SX522_.jpg",
         "nutrition info": "",
         "sale": true,
         "stock": 7
     },
     {
-        "item": "fries",
+        "item": "Snyder's Of Hanover Honey Mustard & Onion Pieces",
         "price": 4.99,
-        "image": "",
+        "image": "https://bjs.scene7.com/is/image/bjs/83804?$bjs-Initial480$",
         "nutrition info": "",
         "sale": true,
         "stock": 5
     },
     {
-        "item": "chips",
+        "item": "Starburst Original",
         "price": 1.99,
-        "image": "",
+        "image": "https://thumbs.dreamstime.com/b/stack-colorful-starburst-candy-pink-front-white-background-106628822.jpg",
         "nutrition info": "",
         "sale": true,
         "stock": 2
     },
     {
-        "item": "apple slices",
+        "item": "Pabst Blue Ribbon (16oz)",
         "price": 2.99,
-        "image": "",
+        "image": "https://www.totalwine.com/dynamic/x490,4pk/media/sys_master/twmmedia/ha3/hdb/8812346572830.png",
         "nutrition info": "",
         "sale": true,
         "stock": 10
     },
     {
-        "item": "takis",
+        "item": "Jameson Triple Distilled Irish Whiskey",
         "price": 3.99,
-        "image": "",
+        "image": "https://cdn.shopify.com/s/files/1/0287/8390/2817/products/Jameson-1.75L_1800x1800.png?v=1612661574",
         "nutrition info": "",
         "sale": true,
         "stock": 0
     },
     {
-        "item": "soda",
+        "item": "Baja Blast",
         "price": 1.99,
-        "image": "",
+        "image": "https://i5.walmartimages.com/asr/893f11bf-a945-4697-9b5c-2ec4f217f398.dd408c778a7e7cd59583eac61dc9b816.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
         "nutrition info": "",
         "sale": true,
         "stock": 5
@@ -72,7 +72,7 @@
         "stock": 14
     },
     {
-        "item": "soda",
+        "item": "Mountain Dew",
         "price": 2.99,
         "image": "",
         "nutrition info": "",
@@ -80,7 +80,7 @@
         "stock": 21
     },
     {
-        "item": "soda",
+        "item": "Beef Jerky",
         "price": 2.99,
         "image": "",
         "nutrition info": "",
@@ -88,7 +88,7 @@
         "stock": 8
     },
     {
-        "item": "soda",
+        "item": "Monster Energy Drink",
         "price": 1.99,
         "image": "",
         "nutrition info": "",
@@ -96,7 +96,7 @@
         "stock": 10
     },
     {
-        "item": "soda",
+        "item": "Red Bull Energy Drink",
         "price": 1.99,
         "image": "",
         "nutrition info": "",
@@ -112,7 +112,7 @@
         "stock": 10
     },
     {
-        "item": "soda",
+        "item": "Frosted Flakes Cereal",
         "price": 1.99,
         "image": "",
         "nutrition info": "",
@@ -120,7 +120,7 @@
         "stock": 0
     },
     {
-        "item": "soda",
+        "item": "Cheerios Cereal",
         "price": 1.99,
         "image": "",
         "nutrition info": "",
@@ -128,7 +128,7 @@
         "stock": 10
     },
     {
-        "item": "soda",
+        "item": "Hostess Glazed Donuts",
         "price": 1.99,
         "image": "",
         "nutrition info": "",
@@ -136,7 +136,7 @@
         "stock": 11
     },
     {
-        "item": "soda",
+        "item": "Starburst Original",
         "price": 1.99,
         "image": "",
         "nutrition info": "",
@@ -144,7 +144,7 @@
         "stock": 3
     },
     {
-        "item": "soda",
+        "item": "Skittles Original",
         "price": 1.99,
         "image": "",
         "nutrition info": "",
