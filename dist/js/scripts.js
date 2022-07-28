@@ -74,3 +74,16 @@ function resetBoard() {
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const loyaltyId = urlParams.get('loyaltyId');
+const loyaltyPoints = urlParams.get('loyaltyPoints');
+var loyalty1 = document.getElementById("loyaltyId");
+var loyalty2 = document.getElementById("loyaltyPoints");
+if (lolyaltyId != null){
+loyalty1.append(loyaltyId);
+}
+if (lolyaltyPoints!= null){
+loyalty2.append(loyaltyPoints);
+}
