@@ -25,7 +25,7 @@ The DFS Inventory tracker was designed to have the following capabilities:
 
 Also able to take loyaltyID and loyaltyPoints as URL paramters.
 
-**[View Live Preview](https://master.dls34ngln3ect.amplifyapp.com/?loyaltyId=1234567&loyaltyPoints=4321)**
+**[View Live Preview: LoyaltyID and Points](https://master.dls34ngln3ect.amplifyapp.com/?loyaltyId=1234567&loyaltyPoints=4321)**
 
 ## Hosted on AWS Amplify
 
