@@ -4,16 +4,18 @@ DFS Inventory Tracker is a web app that can show a customer the inventory of the
 
 ## Design
 
-[![Figma Design]()](https://www.figma.com/file/lzWyXAWHXWxrejtgdzJtFb/Hackathon---WT-2022?node-id=0%3A1)
+**[Figma Design](https://www.figma.com/file/lzWyXAWHXWxrejtgdzJtFb/Hackathon---WT-2022?node-id=0%3A1)**
 
 The DFS Inventory tracker was designed to have the following capabilities:
 * Show current inventory of gas station including:
     * Item current stock amount (or out of stock)
-    * Item price and nutritional information
+    * Item price and nutritional information on back of card
     * Item rating
 * Loyalty Flip Game
     * Memory game for items in stock
     * Playing game earn's loyalty points for customer through seller's loyalty program
+    * Congratulations screen after winning
+    * Retry screen
 * Ability for sellar to login and update stock
 
 
