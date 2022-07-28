@@ -81,9 +81,9 @@ const loyaltyId = urlParams.get('loyaltyId');
 const loyaltyPoints = urlParams.get('loyaltyPoints');
 var loyalty1 = document.getElementById("loyaltyId");
 var loyalty2 = document.getElementById("loyaltyPoints");
-if (lolyaltyId != null){
+if (loyaltyId != null){
 loyalty1.append(loyaltyId);
 }
-if (lolyaltyPoints!= null){
+if (loyaltyPoints!= null){
 loyalty2.append(loyaltyPoints);
 }
