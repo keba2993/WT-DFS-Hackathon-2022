@@ -1,0 +1,194 @@
+[
+    {
+        "item": "soda",
+        "price": 1.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 10
+    },
+    {
+        "item": "soda",
+        "price": 2.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 0
+    },
+    {
+        "item": "burger",
+        "price": 3.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 7
+    },
+    {
+        "item": "fries",
+        "price": 4.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 5
+    },
+    {
+        "item": "chips",
+        "price": 1.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 2
+    },
+    {
+        "item": "apple slices",
+        "price": 2.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 10
+    },
+    {
+        "item": "takis",
+        "price": 3.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 0
+    },
+    {
+        "item": "soda",
+        "price": 1.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 5
+    },
+    {
+        "item": "soda",
+        "price": 2.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 14
+    },
+    {
+        "item": "soda",
+        "price": 2.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 21
+    },
+    {
+        "item": "soda",
+        "price": 2.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 8
+    },
+    {
+        "item": "soda",
+        "price": 1.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 10
+    },
+    {
+        "item": "soda",
+        "price": 1.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 11
+    },
+    {
+        "item": "soda",
+        "price": 1.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 10
+    },
+    {
+        "item": "soda",
+        "price": 1.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 0
+    },
+    {
+        "item": "soda",
+        "price": 1.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 10
+    },
+    {
+        "item": "soda",
+        "price": 1.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 11
+    },
+    {
+        "item": "soda",
+        "price": 1.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 3
+    },
+    {
+        "item": "soda",
+        "price": 1.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 10
+    },
+    {
+        "item": "soda",
+        "price": 1.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 10
+    },
+    {
+        "item": "soda",
+        "price": 1.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 10
+    },
+    {
+        "item": "soda",
+        "price": 3.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 10
+    },
+    {
+        "item": "soda",
+        "price": 1.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 10
+    },
+    {
+        "item": "soda",
+        "price": 1.99,
+        "image": "",
+        "nutrition info": "",
+        "sale": true,
+        "stock": 10
+    }
+]
