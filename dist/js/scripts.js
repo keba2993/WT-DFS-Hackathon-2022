@@ -5,3 +5,9 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+// add filtering
+// add search
+// add getting url Params
+// add game functionality
+// add loyalty stuff
