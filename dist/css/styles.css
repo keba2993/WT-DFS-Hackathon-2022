@@ -11334,7 +11334,7 @@ textarea.form-control-lg {
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  background: #1C7CCC;
+  background: var(--bs-primary);
   backface-visibility: hidden;
 }
 

@@ -4,6 +4,7 @@
 // add game functionality
 // add loyalty stuff
 const cards = document.querySelectorAll('.memory-card');
+const itemCards = document.querySelectorAll('.card');
 
 let hasFlippedCard = false;
 let lockBoard = false;
@@ -66,6 +67,7 @@ function resetBoard() {
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+itemCards.forEach(card => card.addEventListener('click', flipCard));
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
